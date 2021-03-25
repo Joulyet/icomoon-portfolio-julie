@@ -1,0 +1,232 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cb8m2u');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?cb8m2u#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?cb8m2u') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?cb8m2u') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?cb8m2u##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.alt-i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alt-cinema {
+  &:before {
+    content: $alt-cinema; 
+  }
+}
+.alt-sun {
+  &:before {
+    content: $alt-sun; 
+  }
+}
+.alt-chat {
+  &:before {
+    content: $alt-chat;     
+    color: #70df7c;
+  }
+}
+.alt-cat {
+  &:before {
+    content: $alt-cat; 
+  }
+}
+.alt-japan {
+  &:before {
+    content: $alt-japan; 
+  }
+}
+.alt-web-development {
+  &:before {
+    content: $alt-web-development; 
+  }
+}
+.alt-losange {
+  &:before {
+    content: $alt-losange;     
+    color: #70df7c;
+  }
+}
+.alt-download {
+  &:before {
+    content: $alt-download; 
+  }
+}
+.alt-logo {
+  &:before {
+    content: $alt-logo; 
+  }
+}
+.alt-computer {
+  &:before {
+    content: $alt-computer;     
+    color: #70df7c;
+  }
+}
+.alt-coffee {
+  &:before {
+    content: $alt-coffee; 
+  }
+}
+.alt-settings {
+  &:before {
+    content: $alt-settings;     
+    color: #70df7c;
+  }
+}
+.alt-game-controller {
+  &:before {
+    content: $alt-game-controller; 
+  }
+}
+.alt-mail {
+  &:before {
+    content: $alt-mail; 
+  }
+}
+.alt-discord .path1 {
+  &:before {
+    content: $alt-discord-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.alt-discord .path2 {
+  &:before {
+    content: $alt-discord-path2;  
+    margin-left: -1em;  
+    color: rgb(114, 137, 218);
+  }
+}
+.alt-discord .path3 {
+  &:before {
+    content: $alt-discord-path3;  
+    margin-left: -1em;  
+    color: rgb(114, 137, 218);
+  }
+}
+.alt-github .path1 {
+  &:before {
+    content: $alt-github-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.alt-github .path2 {
+  &:before {
+    content: $alt-github-path2;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path3 {
+  &:before {
+    content: $alt-github-path3;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path4 {
+  &:before {
+    content: $alt-github-path4;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path5 {
+  &:before {
+    content: $alt-github-path5;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path6 {
+  &:before {
+    content: $alt-github-path6;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path7 {
+  &:before {
+    content: $alt-github-path7;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-github .path8 {
+  &:before {
+    content: $alt-github-path8;  
+    margin-left: -1em;  
+    color: rgb(22, 21, 20);
+  }
+}
+.alt-linkedin .path1 {
+  &:before {
+    content: $alt-linkedin-path1;  
+    color: rgb(0, 119, 181);
+  }
+}
+.alt-linkedin .path2 {
+  &:before {
+    content: $alt-linkedin-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.alt-twitter .path1 {
+  &:before {
+    content: $alt-twitter-path1;  
+    color: rgb(85, 172, 238);
+  }
+}
+.alt-twitter .path2 {
+  &:before {
+    content: $alt-twitter-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.alt-cross {
+  &:before {
+    content: $alt-cross;     
+    color: #70df7c;
+  }
+}
+.alt-user {
+  &:before {
+    content: $alt-user;     
+    color: #70df7c;
+  }
+}
+.alt-moon {
+  &:before {
+    content: $alt-moon; 
+  }
+}
+.alt-chevron-left {
+  &:before {
+    content: $alt-chevron-left; 
+  }
+}
+.alt-chevron-right {
+  &:before {
+    content: $alt-chevron-right; 
+  }
+}
+
